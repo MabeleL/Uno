@@ -8,8 +8,8 @@
 //connect the LED to pin 8, you can still use Pin13 as the default if you do not have a resistor and an LED as well as other components such as jumper wires, breadboard etc
 #define LEDPin 8
 
-//set the time interval for the LED  to blink on and off
-const int time = 100;
+//set the time interval for the LED  to blink on and off - in this case it is for 1s
+const int time = 1000;
 
 //this is the entry point of your code - it is called once during execution
 void setup(){
